@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    /* default color */
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: lightblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
