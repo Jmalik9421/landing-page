@@ -40,3 +40,7 @@ body {
 .links a {
     color: white;
 }
+
+.s1 {
+    display: flex;
+}
