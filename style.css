@@ -43,4 +43,21 @@ body {
 
 .s1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.hero-container {
+    background-color: red;
+}
+
+.hero-img {
+    background-color: green;
+}
+
+.hero-container,
+.hero-img {
+    width: 400px;
+    height: 200px;
 }
