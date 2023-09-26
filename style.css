@@ -22,7 +22,17 @@ a {
 }
 .header {
     display: flex;
-    background-color: red;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#header-logo {
+    color: white;
+    text-align: center;
+}
+.links {
+    display: flex;
+    gap: 20px;
+    text-align: center;
 }
 
 #container-section-one{
