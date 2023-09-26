@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container-child {
+    width: 80%;
+}
+
+#container-header{
+    background-color: purple;
+}
+.header {
+    display: flex;
+    background-color: red;
+}
+
+#container-section-one{
+    background-color: blue;
+}
+.section-one {
+    display: flex;
+    background-color: orange;
+}
+
+#container-section-two {
+    background-color: green;
+}
+.section-two {
+    display: flex;
+    background-color: yellow;
+}
+
+#container-section-three {
+    background-color: yellow;
+}
+.section-three {
+    display: flex;
+    background-color: green;
+
+}
+
+#container-section-four {
+    background-color: orange;
+}
+.section-four {
+    display: flex;
+    background-color: blue;
+}
+
+.footer {
+    display: flex;
+    background-color: purple;
+}
