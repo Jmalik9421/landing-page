@@ -46,12 +46,49 @@ a {
 /* SECTION-ONE */
 /* SECTION-ONE */
 #container-section-one{
-    background-color: blue;
+    background-color: #1f2937;
 }
 .section-one {
     display: flex;
-    background-color: orange;
+    gap: 10%;
+    margin: 50px 0px;
+    justify-content: space-between;
+    align-items: center;
 }
+.hero-text {
+    width: 45%;
+}
+#hero-headline {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+#hero-secondary-text {
+    color: #f9faf8;
+    font-size: 18px;
+}
+#hero-button {
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 25px;
+}
+.hero-img {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: grey;
+    max-width: 350px;
+    max-height: 300px;
+    min-height: 100px;
+    min-height: 75px;
+
+    /* i am here, problem = hero-img height and width aspect ratio is not being maintained, is not set */
+}
+
 /* SECTION-ONE */
 /* SECTION-ONE */
 
