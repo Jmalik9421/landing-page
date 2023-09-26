@@ -8,3 +8,4 @@ Things to keep in mind as I learn:
 -plan way ahead before you write your first line of code
 -start with structure, then add text/links, then add styling
 -make decisions about what you want the end product to look like. stick with these decisions throughout the course of the project. be consistent 
+-minimise nesting where you can
