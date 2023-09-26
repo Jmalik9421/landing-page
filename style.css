@@ -1,22 +1,27 @@
+/* DEFAULT STYLING */
+/* DEFAULT STYLING */
+
 * {
     padding: 0;
     margin: 0;
 }
-
 .container{
     display: flex;
     justify-content: center;
 }
-
 .container-child {
     width: 80%;
 }
-
 a {
     text-decoration: none;
     color: white;
 }
+/* DEFAULT STYLING */
+/* DEFAULT STYLING */
 
+
+/* HEADER */
+/* HEADER */
 #container-header{
     background-color: #1f2937;
 }
@@ -34,7 +39,12 @@ a {
     gap: 20px;
     text-align: center;
 }
+/* HEADER */
+/* HEADER */
 
+
+/* SECTION-ONE */
+/* SECTION-ONE */
 #container-section-one{
     background-color: blue;
 }
@@ -42,7 +52,12 @@ a {
     display: flex;
     background-color: orange;
 }
+/* SECTION-ONE */
+/* SECTION-ONE */
 
+
+/* SECTION TWO */
+/* SECTION TWO */
 #container-section-two {
     background-color: green;
 }
@@ -50,16 +65,25 @@ a {
     display: flex;
     background-color: yellow;
 }
+/* SECTION TWO */
+/* SECTION TWO */
 
+
+/* SECTION THREE */
+/* SECTION THREE */
 #container-section-three {
     background-color: yellow;
 }
 .section-three {
     display: flex;
     background-color: green;
-
 }
+/* SECTION THREE */
+/* SECTION THREE */
 
+
+/* SECTION FOUR */
+/* SECTION FOUR */
 #container-section-four {
     background-color: orange;
 }
@@ -67,8 +91,15 @@ a {
     display: flex;
     background-color: blue;
 }
+/* SECTION FOUR */
+/* SECTION FOUR */
 
+
+/* FOOTER */
+/* FOOTER */
 .footer {
     display: flex;
     background-color: purple;
 }
+/* FOOTER */
+/* FOOTER */
