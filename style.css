@@ -208,7 +208,11 @@ a {
 /* FOOTER */
 .footer {
     display: flex;
-    background-color: purple;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
 /* FOOTER */
 /* FOOTER */
