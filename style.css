@@ -146,11 +146,27 @@ a {
 /* SECTION THREE */
 /* SECTION THREE */
 #container-section-three {
-    background-color: yellow;
+    background-color: #e5e7eb;
 }
-.section-three {
+.quote-container {
     display: flex;
-    background-color: green;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+#quote,
+#quote-author {
+    color: #1f2937;
+}
+#quote {
+    font-size: 36px;
+    font-style: italic;
+}
+#quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: bolder;
 }
 /* SECTION THREE */
 /* SECTION THREE */
