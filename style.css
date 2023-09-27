@@ -66,6 +66,7 @@ a {
 #hero-secondary-text {
     color: #f9faf8;
     font-size: 18px;
+    margin: 10px 0px;
 }
 #hero-button {
     background-color: #3882f6;
@@ -74,19 +75,20 @@ a {
     color: white;
     padding: 5px 25px;
 }
-.hero-img {
+.hero-img-container {
     width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero-img {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #f9faf8;
     background-color: grey;
-    max-width: 350px;
-    max-height: 300px;
-    min-height: 100px;
-    min-height: 75px;
-
-    /* i am here, problem = hero-img height and width aspect ratio is not being maintained, is not set */
+    width: 300px;
+    height: 150px;
 }
 
 /* SECTION-ONE */
